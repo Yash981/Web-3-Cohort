@@ -21,7 +21,6 @@ const ShowBalance = () => {
 
 
     },[connection, wallet.publicKey])
-    console.log(balance,wallet.publicKey,'olkkkk')
     return(
         <section style={{ marginTop: '100px'}}>
             <div style={{backgroundColor: 'transparent', color: 'white',textAlign: 'center'}}>
