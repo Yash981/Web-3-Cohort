@@ -9,7 +9,7 @@ const AirDrop = () => {
 
     const reQuestAirDrop = async () => {
         if (!wallet.publicKey) {
-            return;
+            return alert("Please connect your wallet");
         }
         try {
 
