@@ -44,7 +44,6 @@ export function SendSOL() {
             duration: 2000,
             onDismiss: () => console.log("Dismissed")
         });
-        console.log(wallet.publicKey,'wallet.publicKey');
         const transaction = new Transaction()
         transaction.add(
             SystemProgram.transfer({

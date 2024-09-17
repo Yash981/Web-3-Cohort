@@ -64,9 +64,8 @@ const Header = () => {
                             backgroundColor: "transparent",
                             transition: "background-color 0.2s ease, color 0.2s ease",
                             borderStyle: "solid",
-                            borderWidth: "1px",
+                            borderWidth: "2px",
                         }}
-
                              />
                     )}
 
